@@ -1,0 +1,17 @@
+post:
+  tags:
+    - User
+  summary: Create a User
+  operationId: createUsers
+  responses:
+    '201':
+      description: Created
+    '422':
+      description: Invalid data
+  requestBody:
+    content:
+      application/json:
+        schema:
+          $ref: ../components/requestBodies/User/Create.yaml
+    description: Updated user object
+    required: true

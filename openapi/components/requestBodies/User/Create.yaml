@@ -1,0 +1,8 @@
+type: object
+properties:
+  username:
+    $ref: ../../schemas/User/Username.yaml
+  password:
+    $ref: ../../schemas/User/Password.yaml
+  email:
+    $ref: ../../schemas/User/Email.yaml
