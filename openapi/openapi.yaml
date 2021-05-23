@@ -1,0 +1,25 @@
+openapi: 3.0.2
+info:
+  version: 1.0.0
+  title: pursuit.com
+  termsOfService: 'https://pursuit.com/terms/'
+  contact:
+    email: contact@example.com
+    url: 'http://example.com/contact'
+  license:
+    name: Apache 2.0
+    url: 'http://www.apache.org/licenses/LICENSE-2.0.html'
+  x-logo:
+    url: 'https://redocly.github.io/openapi-template/logo.png'
+  description: '.'
+externalDocs:
+  description: Find out how to create a GitHub repo for your OpenAPI definition.
+  url: 'https://github.com/Rebilly/generator-openapi-repo'
+tags:
+  - name: User
+    description: Operations about user
+servers:
+  - url: 'https://api.example.com'
+paths:
+  '/users':
+    $ref: 'paths/users.yaml'
